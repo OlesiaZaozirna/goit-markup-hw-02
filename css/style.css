@@ -5,14 +5,16 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
-ul,
-li {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 a {
   text-decoration: none;
+  color: #2e2f42;
+}
+.logo_part2 {
   color: #2e2f42;
 }
 :root {
@@ -26,14 +28,17 @@ a {
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 800;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-size: 18px;
   text-align: left;
-  line-height: 1.167;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
-.logo-title {
-  color: #4d5ae5;
+.link {
+  text-decoration: none;
+}
+.logopart2 {
+  color: #2e2f42;
 }
 nav {
   font-weight: 800;
@@ -59,12 +64,12 @@ h1 {
   text-align: center;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .button_service {
   color: #ffffff;
   background-color: #4d5ae5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .button_service:hover {
@@ -83,13 +88,13 @@ h3 {
 .section2_title {
   font-size: 24px;
   line-height: 1.333;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .section3_title,
 .section4_title {
   font-size: 36px;
   line-height: 1.111;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 .section4 {
@@ -102,7 +107,7 @@ h3 {
 .teammate {
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 footer {
   background-color: #2e2f42;
@@ -122,7 +127,7 @@ footer {
 .project_type {
   background-color: #f4f4fd;
   color: var(--accent-main-color);
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .project_type:hover {
@@ -132,7 +137,7 @@ footer {
 .title-portfolio {
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .text-portfolio {
   color: #434455;
