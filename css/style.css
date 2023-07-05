@@ -10,6 +10,9 @@ body {
 .list {
   list-style: none;
 }
+.name_menu {
+  font-weight: 500;
+}
 a {
   text-decoration: none;
   color: #2e2f42;
@@ -43,7 +46,7 @@ a {
 nav {
   font-weight: 800;
 }
-address {
+.contacts {
   color: #434455;
   font-style: normal;
 }
@@ -58,7 +61,7 @@ address {
 .section1 {
   background-color: #2e2f42;
 }
-h1 {
+.section1_title {
   color: #ffffff;
   text-shadow: 0px 4px 4px black;
   text-align: center;
@@ -71,8 +74,13 @@ h1 {
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
-.button_service:hover {
+.button_service:hover,
+.button_service:focus {
   background-color: #404bbf;
 }
 .section2 {
@@ -87,8 +95,10 @@ h3 {
 }
 .section2_title {
   font-size: 24px;
-  line-height: 1.333;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
 }
 .section3_title,
 .section4_title {
@@ -96,6 +106,8 @@ h3 {
   line-height: 1.111;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 .section4 {
   background-color: #f4f4fd;
@@ -113,22 +125,40 @@ footer {
   background-color: #2e2f42;
   color: #ffffff;
 }
+.logofooter {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
 .logo_footer {
-  color: #ffffff;
+  color: #f4f4fd;
+}
+.footer_text {
+  color: #f4f4fd;
 }
 .team_card {
   background-color: #ffffff;
 }
+
 /*Page Portfolio*/
 
 .project_menu {
   text-align: center;
+  list-style: none;
 }
 .project_type {
   background-color: #f4f4fd;
   color: var(--accent-main-color);
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .project_type:hover {
   color: white;
