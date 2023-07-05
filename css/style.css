@@ -1,0 +1,139 @@
+/*Page Studio*/
+body {
+  font-family: Roboto, sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+:root {
+  --title-main-color: #2e2f42;
+  --text-main-color: #434455;
+  --fon-main-color: #ffffff;
+  --accent-main-color: #4d5ae5;
+  --fon-second-color: #2e2f42;
+}
+.logo {
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  color: #2e2f42;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.167;
+  letter-spacing: 3%;
+}
+.logo-title {
+  color: #4d5ae5;
+}
+nav {
+  font-weight: 800;
+}
+address {
+  color: #434455;
+  font-style: normal;
+}
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
+.name_menu:hover,
+.name_menu:focus {
+  color: #404bbf;
+}
+.section1 {
+  background-color: #2e2f42;
+}
+h1 {
+  color: #ffffff;
+  text-shadow: 0px 4px 4px black;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 2%;
+}
+.button_service {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+.button_service:hover {
+  background-color: #404bbf;
+}
+.section2 {
+  text-align: left;
+}
+h2,
+h3 {
+  color: #2e2f42;
+}
+.hidden {
+  visibility: hidden;
+}
+.section2_title {
+  font-size: 24px;
+  line-height: 1.333;
+  letter-spacing: 2%;
+}
+.section3_title,
+.section4_title {
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 2%;
+  text-align: center;
+}
+.section4 {
+  background-color: #f4f4fd;
+}
+.teammate,
+.section4_text {
+  text-align: center;
+}
+.teammate {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+}
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+.logo_footer {
+  color: #ffffff;
+}
+.team_card {
+  background-color: #ffffff;
+}
+/*Page Portfolio*/
+
+.project_menu {
+  text-align: center;
+}
+.project_type {
+  background-color: #f4f4fd;
+  color: var(--accent-main-color);
+  letter-spacing: 4%;
+  cursor: pointer;
+}
+.project_type:hover {
+  color: white;
+  background-color: #404bbf;
+}
+.title-portfolio {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+}
+.text-portfolio {
+  color: #434455;
+}
