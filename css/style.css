@@ -13,6 +13,9 @@ body {
 .name_menu {
   font-weight: 500;
 }
+.address {
+  font-style: normal;
+}
 a {
   text-decoration: none;
   color: #2e2f42;
