@@ -22,6 +22,12 @@ a {
 }
 .logo_part2 {
   color: #2e2f42;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
 }
 :root {
   --title-main-color: #2e2f42;
@@ -32,7 +38,7 @@ a {
 }
 .logo {
   text-transform: uppercase;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   color: #4d5ae5;
   font-size: 18px;
@@ -61,7 +67,7 @@ nav {
 .name_menu:focus {
   color: #404bbf;
 }
-.section1 {
+.section_1 {
   background-color: #2e2f42;
 }
 .section1_title {
@@ -103,8 +109,7 @@ h3 {
   font-weight: 500;
   font-size: 20px;
 }
-.section3_title,
-.section4_title {
+.section3_title .section4_title {
   font-size: 36px;
   line-height: 1.111;
   letter-spacing: 0.02em;
@@ -139,6 +144,13 @@ footer {
 }
 .logo_footer {
   color: #f4f4fd;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.17;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
 }
 .footer_text {
   color: #f4f4fd;
@@ -167,11 +179,14 @@ footer {
   color: white;
   background-color: #404bbf;
 }
+.project_type:hover {
+  color: white;
+  background-color: #404bbf;
+}
 .title-portfolio {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-.text-portfolio {
-  color: #434455;
+  font-weight: 500;
+  color: var(--text-main-color);
 }
