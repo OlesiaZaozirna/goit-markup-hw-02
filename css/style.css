@@ -166,11 +166,11 @@ footer {
 
 /*Page Portfolio*/
 
-.project_menu {
+.project-menu {
   text-align: center;
   list-style: none;
 }
-.project_type {
+.project-type {
   background-color: #f4f4fd;
   color: var(--accent-main-color);
   letter-spacing: 0.04em;
@@ -180,11 +180,11 @@ footer {
   font-size: 16px;
   line-height: 1.5;
 }
-.project_type:hover {
+.project-type:hover {
   color: white;
   background-color: #404bbf;
 }
-.project_type:hover {
+.project-type:hover {
   color: white;
   background-color: #404bbf;
 }
