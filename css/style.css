@@ -180,11 +180,8 @@ footer {
   font-size: 16px;
   line-height: 1.5;
 }
-.project-type:hover {
-  color: white;
-  background-color: #404bbf;
-}
-.project-type:hover {
+.project-type:hover,
+.project-type:focus {
   color: white;
   background-color: #404bbf;
 }
@@ -193,5 +190,8 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
+  color: var(--title-main-color);
+}
+.title-portfolio {
   color: var(--text-main-color);
 }
