@@ -10,7 +10,7 @@ body {
 .list {
   list-style: none;
 }
-.name_menu {
+.name-menu {
   font-weight: 500;
 }
 .address {
@@ -20,7 +20,17 @@ a {
   text-decoration: none;
   color: #2e2f42;
 }
-.logo_part2 {
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: #4d5ae5;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-part-two {
   color: #2e2f42;
   font-size: 18px;
   text-align: left;
@@ -36,16 +46,7 @@ a {
   --accent-main-color: #4d5ae5;
   --fon-second-color: #2e2f42;
 }
-.logo {
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  color: #4d5ae5;
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
+
 .link {
   text-decoration: none;
 }
@@ -63,14 +64,14 @@ nav {
 .contacts:focus {
   color: #404bbf;
 }
-.name_menu:hover,
-.name_menu:focus {
+.name-menu:hover,
+.name-menu:focus {
   color: #404bbf;
 }
-.section_1 {
+.section-one {
   background-color: #2e2f42;
 }
-.section1_title {
+.section-one-title {
   color: #ffffff;
   text-shadow: 0px 4px 4px black;
   text-align: center;
@@ -78,7 +79,7 @@ nav {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.button_service {
+.button-service {
   color: #ffffff;
   background-color: #4d5ae5;
   letter-spacing: 0.04em;
@@ -88,11 +89,11 @@ nav {
   font-size: 16px;
   line-height: 1.5;
 }
-.button_service:hover,
-.button_service:focus {
+.button-service:hover,
+.button-service:focus {
   background-color: #404bbf;
 }
-.section2 {
+.section-two {
   text-align: left;
 }
 h2,
@@ -102,14 +103,15 @@ h3 {
 .hidden {
   visibility: hidden;
 }
-.section2_title {
+.section-two-title {
   font-size: 24px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
 }
-.section3_title .section4_title {
+.section-tree-title,
+.section-four-title {
   font-size: 36px;
   line-height: 1.111;
   letter-spacing: 0.02em;
@@ -117,11 +119,11 @@ h3 {
   text-transform: capitalize;
   font-weight: 500;
 }
-.section4 {
+.section-four {
   background-color: #f4f4fd;
 }
 .teammate,
-.section4_text {
+.section-four-text {
   text-align: center;
 }
 .teammate {
@@ -142,7 +144,7 @@ footer {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo_footer {
+.logo-footer {
   color: #f4f4fd;
   font-size: 18px;
   text-align: left;
@@ -152,10 +154,10 @@ footer {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
-.footer_text {
+.footer-text {
   color: #f4f4fd;
 }
-.team_card {
+.team-card {
   background-color: #ffffff;
 }
 
